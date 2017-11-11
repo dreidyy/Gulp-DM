@@ -1,6 +1,9 @@
 
 ## **Gulp-DM** ##
 
+[![npm](https://img.shields.io/npm/v/npm.svg)]()
+
+
 ----------
 
 >Compila SASS, JavaScript, PUG, comprime imagenes y crear los archivos en la carpeta /dist como son HTML, CSS, Javascript concatenado en un solo archivo
@@ -24,4 +27,4 @@
 
 ----------
 
-## Espero que lo disfrutes y caulquier sugerencia duda o comentario me la dejas saber ##
+**Espero que lo disfrutes y caulquier sugerencia duda o comentario me la dejas saber**
