@@ -7,7 +7,7 @@
 
 > Compila SASS, JavaScript, PUG, comprime imagenes y crear los archivos en la carpeta /dist como son HTML, CSS en Javascript se concatena todos los archivos JS en un solo archivo.
 
-##### Pasos para utilizar el GULP-DM**
+##### Pasos para utilizar el GULP-DM
 
 1. Para usarlo en tus proyecto personales solo tienes que clonar el repositorio.
 2. Cuando se descargue utilizaras el comando `npm install` para que se instalen todas las dependencias.
@@ -16,4 +16,4 @@
 5. Cuando termine de realizar tu pagina Web podras utilizar este comando para comprimir las imagenes `gulp imagemin` y automaticamente todas las imagenes que estan en la carpeta /dev pasaran a la carpeta /dist comprimidas.
 
 
-##### Espero que lo disfrutes y cualquier sugerencia, duda o comentarios me la dejan saber**
+##### Espero que lo disfrutes y cualquier sugerencia, duda o comentarios me la dejan saber
