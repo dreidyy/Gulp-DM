@@ -1,6 +1,6 @@
 
-[![npm](https://img.shields.io/npm/v/npm.svg?style=plastic)]([![VersionEye](https://img.shields.io/versioneye/d/ruby/rails.svg?style=plastic)](https://github.com/dreidyy/Gulp-DM)) [![VersionEye](https://img.shields.io/versioneye/d/ruby/rails.svg?style=plastic)](https://github.com/dreidyy/Gulp-DM/)
-
+[![VersionEye](https://img.shields.io/versioneye/d/ruby/rails.svg?style=plastic)](https://github.com/dreidyy/Gulp-DM/)
+[![npm](https://img.shields.io/npm/v/npm.svg?style=plastic)](https://github.com/dreidyy/Gulp-DM/)
 
 # Gulp-DM
 
