@@ -4,7 +4,7 @@
 
 # Gulp-DM
 
-> Compila SASS, JavaScript, PUG, comprime imagenes y crear los archivos en la carpeta /dist como son HTML, CSS en Javascript se concatena todos los archivos JS en un solo archivo.
+> Compila SASS, JavaScript, PUG, comprime imagenes y crear los archivos en la carpeta /dist como son HTML, CSS y Javascript.
 
 ##### Pasos para utilizar el GULP-DM
 
