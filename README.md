@@ -1,5 +1,7 @@
 
-[![VersionEye](https://img.shields.io/versioneye/d/ruby/rails.svg?style=plastic)](https://github.com/dreidyy/Gulp-DM/)
+"[![VersionEye](https://img.shields.io/versioneye/d/ruby/rails.svg?style=plastic)](https://github.com/dreidyy/Gulp-DM/)"
+
+[![devDependencies Status](https://david-dm.org/dreidyy/Gulp-DM/dev-status.svg)](https://david-dm.org/dreidyy/Gulp-DM?type=dev)
 [![npm](https://img.shields.io/npm/v/npm.svg?style=plastic)](https://github.com/dreidyy/Gulp-DM/)
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/dreidyy/Gulp-DM/edit/master/README.md)
 
