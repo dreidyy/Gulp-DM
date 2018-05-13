@@ -1,5 +1,4 @@
 
-"[![VersionEye](https://img.shields.io/versioneye/d/ruby/rails.svg?style=plastic)](https://github.com/dreidyy/Gulp-DM/)"
 
 [![devDependencies Status](https://david-dm.org/dreidyy/Gulp-DM/dev-status.svg)](https://david-dm.org/dreidyy/Gulp-DM?type=dev)
 [![npm](https://img.shields.io/npm/v/npm.svg?style=plastic)](https://github.com/dreidyy/Gulp-DM/)
