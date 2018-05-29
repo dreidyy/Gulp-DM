@@ -8,6 +8,7 @@ var gulp          = require('gulp'),
     imagemin      = require('gulp-imagemin'),
     uglify        = require('gulp-uglify'),
     plumber       = require('gulp-plumber'),
+    juice         = require('gulp-juice-concat'),
     browserSync   = require('browser-sync').create();
 
 // Static Server + watching scss/pug/JS/html files
@@ -48,6 +49,7 @@ gulp.task('scripts', function(){
 gulp.task('pug', function buildHTML() {
   return gulp.src('./dev/pug/**/*.pug')
     .pipe(pug({pretty:false,}))
+    .pipe(juice({}))
     .pipe(gulp.dest('dist/'));
 });
 
