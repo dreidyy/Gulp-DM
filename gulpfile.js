@@ -58,7 +58,8 @@ gulp.task('pug', function buildHTML() {
 // compressed images, this task is executed by completing your webpage completely and uploading the compressed images
 
 gulp.task('imagemin', () =>
-  gulp.src('./dev/img/*')
+  gulp.src('./dev/img/**/*.{jpg,jpeg,png,gif}')
+      .pipe(plumber())
       .pipe(imagemin())
       .pipe(gulp.dest('dist/images'))
   );
