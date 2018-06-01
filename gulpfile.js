@@ -25,8 +25,8 @@ gulp.task('serve', ['sass'], function() {
 
 gulp.task('sass', function () {
   return gulp.src('./dev/scss/**/*.scss')
-    .pipe(concat('styles.scss'))
     .pipe(plumber())
+    .pipe(concat('styles.scss'))
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer({browsers: ['last 2 versions']}))
     .pipe(cssnano())
@@ -38,6 +38,7 @@ gulp.task('sass', function () {
 
 gulp.task('scripts', function(){
   return gulp.src('./dev/js/*.js')
+    .pipe(plumber())
     .pipe(concat('scripts.js'))
     .pipe(uglify())
     .pipe(gulp.dest('./dist/js'))
@@ -48,6 +49,7 @@ gulp.task('scripts', function(){
 
 gulp.task('pug', function buildHTML() {
   return gulp.src('./dev/pug/**/*.pug')
+    .pipe(plumber())
     .pipe(pug({pretty:false,}))
     .pipe(juice({}))
     .pipe(gulp.dest('dist/'));
