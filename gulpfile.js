@@ -67,8 +67,8 @@ gulp.task('imagemin', () =>
 // watch all the files
 
 gulp.task('watch', function(){
-  gulp.watch('./dev/js/*.js', ['scripts']);
-  gulp.watch('./dev/scss/*.scss', ['sass']);
+  gulp.watch('./dev/js/**/*.js', ['scripts']);
+  gulp.watch('./dev/scss/**/*.scss', ['sass']);
   gulp.watch('./dev/pug/**/*.pug', ['pug']);
 });
 
