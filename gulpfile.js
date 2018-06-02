@@ -3,7 +3,7 @@ var gulp          = require('gulp'),
     sass          = require('gulp-sass'),
     concat        = require('gulp-concat'),
     pug           = require('gulp-pug'),
-    autoprefixer  = require('gulp-autoprefixer')
+    autoprefixer  = require('gulp-autoprefixer'),
     cssnano       = require('gulp-cssnano'),
     imagemin      = require('gulp-imagemin'),
     uglify        = require('gulp-uglify'),
@@ -17,7 +17,7 @@ gulp.task('serve', ['sass'], function() {
           server: "./dist"
       });
        
-      gulp.watch('./dev/scss/*.scss', ['sass']);
+      gulp.watch('./dev/scss/**/*.scss', ['sass']);
       gulp.watch("./dist/*.html").on('change', browserSync.reload);  
   });
 
@@ -26,10 +26,10 @@ gulp.task('serve', ['sass'], function() {
 gulp.task('sass', function () {
   return gulp.src('./dev/scss/**/*.scss')
     .pipe(plumber())
-    .pipe(concat('styles.scss'))
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer({browsers: ['last 2 versions']}))
     .pipe(cssnano())
+     .pipe(concat('styles.scss'))
     .pipe(gulp.dest('./dist/css/'))
     .pipe(browserSync.stream());
 });
@@ -37,7 +37,7 @@ gulp.task('sass', function () {
 // combine and concat javascript
 
 gulp.task('scripts', function(){
-  return gulp.src('./dev/js/*.js')
+  return gulp.src('./dev/js/**/*.js')
     .pipe(plumber())
     .pipe(concat('scripts.js'))
     .pipe(uglify())
